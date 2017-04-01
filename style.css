@@ -14,16 +14,19 @@ body {
 	width: 526px;
 	height: 350px;
 	margin: 0, auto;
-	border: 3px solid white;
+
 	overflow: hidden;
 }
 ul {
 	width: 2630px;
 	list-style: none;
-	border: 3px solid yellow;
+
 }
 li {
 	width: 525px;
 	list-style: none;
 	float: left;
+}
+img {
+
 }
