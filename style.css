@@ -20,6 +20,7 @@ body {
 ul {
 	width: 2630px;
 	list-style: none;
+	border: 3px solid yellow;
 }
 li {
 	width: 525px;

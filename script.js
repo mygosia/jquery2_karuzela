@@ -1,6 +1,20 @@
 $(function(){
 	var carouselList = $(".carousel ul");
-	$(".carousel ul").setInterval(function(){ alert("Hello"); }, 3000);
+
+	setInterval(function()  {
+		$(".carousel ul").animate({
+			marginLeft:-400}
+			, 500)}
+	);
+	
+
+	//function interval () {
+	//	setInterval(function(){ alert("Hello"); }, 3000);
+	//};
+	//$("body").click(interval);
+
+
+	//$(".carousel ul").setInterval(function(){ alert("Hello"); }, 3000);
 	/*
 	function changeSlide () {
 		carouselList.animate({marginleft: '-=526px'}, 500, moveFirstSlide);
