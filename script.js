@@ -3,10 +3,10 @@ $(function(){
 
 	function slideImg() {
 		carouselList.animate({
-			marginLeft:-526})		
+			marginLeft:-526}, 500, moveFirstSlide)		
 	};
 
-	setInterval(slideImg, 1500, moveFirstSlide);
+	setInterval(slideImg, 1500);
 	
 	function moveFirstSlide () {
 		var firstItem = carouselList.find("li:first");
