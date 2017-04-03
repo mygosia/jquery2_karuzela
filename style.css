@@ -9,6 +9,9 @@ body {
 	background-color: Lightgrey;
 	width: 1100px;
 	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .carousel {
@@ -22,6 +25,7 @@ ul {
 	width: 2630px;
 	list-style: none;
 
+
 }
 li {
 	width: 525px;
@@ -30,4 +34,14 @@ li {
 }
 img {
 
+}
+button {
+	padding: 40px;
+	font-size: 20px;
+	line-height: 20px;
+}
+button:hover {
+	cursor: pointer;
+	background-color: grey;
+	color: white;
 }
