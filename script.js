@@ -21,9 +21,9 @@ $(function(){
 	};
 
 	function slideImgBack() {
-		moveLastSlide,		
+		moveLastSlide(),		
 		carouselList.animate({
-			marginLeft: 0}, 1500, moveLastSlide)		
+			marginLeft: 0}, 1500)		
 	};
 	$(".nextBtn").on("click", slideImgNext);
 	$(".backBtn").on("click", slideImgBack);
